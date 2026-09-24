@@ -1,0 +1,9 @@
+{
+  "id": "qwenpaw-model-router",
+  "name": "任务难度模型路由",
+  "version": "0.1.0",
+  "description": "指定 Agent 的用户回合三级路由，按文字任务与媒体类型判级，默认关闭，支持 shadow。",
+  "type": "general",
+  "entry": {"backend": "plugin.py", "frontend": "ui/index.js"},
+  "qwenpaw_version": {"min": "2.2.0b1", "max": "2.2.1"}
+}

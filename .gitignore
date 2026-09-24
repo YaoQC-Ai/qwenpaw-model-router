@@ -1,0 +1,53 @@
+# 本地工具、依赖与缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+.qoder/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 外部宿主源码及运行数据，不进入公开仓库
+/qwenpaw-source/
+working/
+working.secret/
+working.backups/
+plugin-data/
+sessions/
+backups/
+logs/
+.tmp/
+config.json
+providers.json
+*.log
+*.log.*
+*.sqlite*
+*.db
+*.bak
+*.tmp
+predictions*.jsonl
+
+# 凭据与本机配置
+.env
+.env.*
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+*.pfx
+*.kdbx
+
+# 排除其他归档，仅保留明确生成的公开插件包
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+/dist/*
+!/dist/qwenpaw-model-router-0.1.0.zip
